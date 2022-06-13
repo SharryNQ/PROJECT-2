@@ -1,0 +1,445 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decoir</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/mobile.css">
+    <link rel="stylesheet" href="css/box.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+        integrity="sha256-pasqAKBDmFT4eHoN2ndd6lN370kFiGUFyTiUHWhU7k8=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+    <nav class="navbar sticky navbar-fixed-top.scrolled " id="navbar1">
+        <div class="nav-left">
+            <a href="#home"><img src="images/d1-logo.png" alt="Decoir" class="logo"></a>
+            
+        </div>
+        <div class="nav-right">
+            <ul>
+                <li class=".font-style" ><a href="#home">Home</a></li>
+                <li class=".font-style" ><a href="#catalogue">Catalogue</a></li>
+                <li class=".font-style" ><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="landing-page" id="home">
+        <div class="heading-button">
+            <div class="heading">
+                <h1>The Home should be the Treasure Chest of Living</h1>
+                <p>Pick what you like because living with trend that is not you is never a good choice</p>
+            </div>
+            <div class="head-btn">
+                <button class="btn"><a href="#catalogue">Shop Now</a> </button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Catalogue -->
+
+    <div class="catalogue" id="catalogue">
+        <div class="header">
+            <h1>Our Products</h1>
+        </div>
+
+        <div id="myBtnContainer">
+            <button class="btn active" onclick="filterSelection('tables')"> Table</button>
+            <button class="btn " onclick="filterSelection('chairs')"> Chair</button>
+            <button class="btn" onclick="filterSelection('sofas')"> Sofa</button>
+            <button class="btn" onclick="filterSelection('beds')"> Bed</button>
+            <button class="btn" onclick="filterSelection('tv')"> Television</button>
+            <button class="btn" onclick="filterSelection('toaster')"> Toaster</button>
+        </div>
+
+        <div class="container">
+           <!-- tables -->
+           <div class="filterDiv tables">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/1t.jpg" alt="table">
+                </div>
+                <h4>Sandalwood Table</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv tables">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/3t.jpg" alt="table">
+                </div>
+                <h4>Teak Table</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv tables">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/2t.jpg" alt="table">
+                </div>
+                <h4>Satin Table</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv tables">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/4t.jpg" alt="table">
+                </div>
+                <h4>Sal Table</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- chairs -->
+        <div class="filterDiv chairs">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/1c.jpg" alt="table">
+                </div>
+                <h4>Desk Chair</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv chairs">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/7c.jpg" alt="table">
+                </div>
+                <h4>Arm Chair Black</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv chairs">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/3c.jpg" alt="table">
+                </div>
+                <h4>Lounge Chair White</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv chairs">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/8c.jpg" alt="table">
+                </div>
+                <h4>Mini Office Chair</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv chairs">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/9c.jpg" alt="table">
+                </div>
+                <h4>Arm Chair Grey</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv chairs">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/6c.jpg" alt="table">
+                </div>
+                <h4>Lounge Chair Grey</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- sofas -->
+        <div class="filterDiv  sofas">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/5s.jpg" alt="table">
+                </div>
+                <h4>Solo Sofa</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv sofas">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/2s.jpg" alt="table">
+                </div>
+                <h4>Duo Sofa Green</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+
+        <div class="filterDiv sofas">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/6s.jpg" alt="table">
+                </div>
+                <h4>Duo Sofa Orange</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Beds -->
+        <div class="filterDiv beds">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/1b.jpg" alt="table">
+                </div>
+                <h4>Full Size Bed</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv beds">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/2b.jpg" alt="table">
+                </div>
+                <h4>Queen Size Bed</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv beds">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/5b.jpg" alt="table">
+                </div>
+                <h4>King Size Bed</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        
+
+        <!-- Television -->
+        <div class="filterDiv tv">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/6tv.jpg" alt="table">
+                </div>
+                <h4>42" LED PLASMA TV</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv tv">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/2tv.jpg" alt="table">
+                </div>
+                <h4>54" LCD PLASMA TV</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <div class="filterDiv tv">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/5tv.jpg" alt="table">
+                </div>
+                <h4>32" SMART LED TV</h4>
+                <p>Rs.4800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+        <!-- Toaster -->
+        <div class="filterDiv toaster">
+            <div class="card-box">
+                <div class="card-image">
+                    <img src="images/1to.jpeg" alt="toaster">
+                </div>
+                <h4>Toaster</h4>
+                <p>Rs.1800.00</p>
+                <div class="card-button">
+                    <button class="btn-1">Add to Cart </button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+    
+    <div class="contact-section" id="contact">
+        <div class="contact-info">
+            <h2>Let's Connect</h2>
+        </div>
+        <div class="container-section">
+            <div class="info">
+                <div class="box">
+                    <div class="contact-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
+                    <div class="contact-text">
+                        
+                        <p> Arfa Software Technology Park | 346-B, Ferozepur Road, Lahore </p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contact-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
+                    <div class="contact-text">
+                        
+                        <p>customercareSharry@decoir.com</p>
+                    </div>
+                </div>
+                <div class="box">
+                    <div class="contact-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
+                    <div class="contact-text">
+                        
+                        <p> +02 3019268726 </p>
+                    </div>
+                </div>
+            </div>
+            <div class="contact-form">
+                <form action="">
+                    <h2>Send Message</h2>
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span>Full Name</span>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="text" required="required">
+                        <span>Email</span>
+                    </div>
+                    <div class="inputBox">
+                        <textarea required="required"></textarea>
+                        <span>Type your message</span>
+                    </div>
+                    <div class="inputBox">
+                        <input type="submit" value="Get in touch">
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer-section">
+        <div class="footer ">
+            <!-- max-auto -->
+            <div class="footer-col-0">
+                <div class="bio-info">
+                    <h3>Decoir</h3>
+                    <p>Decoir helping you find suitable solutions for your home since 2000. From sofas to watch late night sports comfortably in, to dining tables making you the best host there is, we got you fully covered.</p>
+                </div>
+                <div class="social-icons">
+                    <h3>Social Links</h3>
+                    <div class="icon-box">
+
+
+                        <div class="icon-in">
+                            <a href="https://www.linkedin.com/in/shaheer-hassan-4b8777163/"><i class="fa fa-linkedin-square fa-2x"
+                                    aria-hidden="true"></i></a>
+
+                        </div>
+                        <div class="icons">
+                            <a href="https://twitter.com/Shaheer55220323"><i class="fa fa-twitter-square fa-2x"
+                                    aria-hidden="true"></i></a>
+
+                        </div>
+                        <div class="icons">
+                            <a href="https://www.linkedin.com/in/shaheer-hassan-4b8777163/"><i class="fa fa-facebook-square fa-2x"
+                                    aria-hidden="true"></i></a>
+
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="footer-col-1 left">
+                <h3>LINKS</h3>
+                <a href="#home">
+                    <p>Home</p>
+                </a>
+                <a href="#catalogue">
+                    <p>Catalogue</p>
+                </a>
+                <a href="#contact">
+                    <p> Contact</p>
+                </a>
+            </div>
+            <div class="footer-col-1">
+                <h3>LEGAL</h3>
+                <a href="#home"><p>Privacy Policy</p></a> 
+                <a href="#home"><p>Terms & Conditions</p></a> 
+
+            </div>
+            <div class="footer-col-2">
+                <div class="newsletter-box">
+                    <h3>Join Our Newsletter</h3>
+                    <form action="">
+                        <div class="newsletter">
+                            <input type="email" placeholder="Enter your email">
+
+                            <input type="submit" value="Join us">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <hr style="border-top: 0px" style="opacity: 0.25">
+
+            <p>Copyright By Sharry &copy; 2022 Decoir.com All rights reserved.</p>
+        </div>
+    </footer>
+    <script src="js/navbar.js"></script>
+     <script src="js/index.js"></script>
+</body>
+</html>

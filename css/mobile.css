@@ -1,0 +1,262 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+@media screen and (max-width: 1100px) {
+	.nav-left {
+		width: 35%;
+	}
+	
+	.footer-col-0 {
+		text-align: left;
+	}
+
+	.newsletter-box {
+		padding: 8px;
+		padding-right: 10px;
+		margin: 4px;
+		margin-right: 10px;
+		margin-left: 2px;
+	}
+
+	.newsletter-box h3 {
+		text-align: left;
+		margin-top: 16px;
+	}
+
+	.newsletter {
+		padding: 5px;
+		margin-right: 8px;
+	}
+
+	.newsletter input, .newsletter ::placeholder {
+		font-size: 16px;
+	}
+}
+@media (max-width: 962px){
+	.landing-page{
+		margin-top: 100px;
+		height: auto;
+		height: 700px;
+	}
+	.heading-button{
+		width: 90%;
+	}
+	.heading{
+		width: 100%;
+	}
+	.head-btn{
+		width: 100%;
+	}
+}
+@media (max-width: 950px) {
+	.landing-page{
+		height: auto;
+	}
+	.heading-button{
+		margin: auto;
+		width: 65%;
+		text-align: center;
+	}
+	.footer-section {
+		height: 1350px;
+		height: auto;
+	}
+
+	.footer {
+		flex-flow: wrap;
+		height: 650px;
+		height: auto;
+	}
+
+	.footer-col-0,.footer-col-1,.footer-col-2 {
+		width: 50%;
+	}
+
+	.newsletter-box {
+		padding: 8px;
+		padding-right: 10px;
+		margin: 4px;
+		margin-right: 10px;
+		margin-left: 2px;
+	}
+
+	.newsletter-box h3 {
+		text-align: left;
+	}
+
+	.newsletter {
+		padding: 5px;
+		margin-right: 8px;
+	}
+}
+@media (max-width: 785px){
+	.nav-left {
+		width: 40%;
+		padding: 10px;
+	}
+	.nav-right{
+		width: 50%;
+	}
+	.nav-right li {
+		margin: 18px 20px;
+	}
+	nav{
+		height: auto;
+		height: 500px;
+	}
+}
+@media (max-width: 675px) {
+	.nav-right li {
+		margin: 18px 14px;
+	}
+	.heading-button{
+		text-align: center;
+		font-size: 14px;
+	}
+	.heading{
+		width: 100%;
+	}
+	.container-section .info {
+		width: 100%;
+	}
+	.contact-form {
+		width: 90%;
+	}
+
+	.footer-section {
+		height: 1000px;
+	}
+	.footer {
+		flex-direction: column;
+		height: 960px;
+	}
+	.footer-col-0 {
+		width: 100%;
+	}
+
+	.footer-col-1 {
+		width: 100%;
+	}
+	.footer-col-2 {
+		width: 100%;
+	}
+	.newsletter-box {
+		padding: 8px;
+		padding-right: 10px;
+		margin: 4px;
+		margin-right: 10px;
+		margin-left: 2px;
+	}
+	.newsletter-box h3 {
+		text-align: left;
+	}
+
+	.newsletter {
+		padding: 5px;
+		margin-right: 8px;
+	}
+
+	.newsletter input, .newsletter ::placeholder {
+		font-size: 20px;
+	}
+}
+@media (max-width:645)
+{
+	.landing-page{
+		height: auto;
+	}
+	.heading-button{
+		margin: 40px;
+	}
+	.heading h1{
+		font-size: 12px;
+	}
+}
+@media (max-width:620) {
+	.heading-button{
+		width: 90%;
+	}
+	.heading{
+		margin: auto;
+		width: 90%;
+	}
+	.footer {
+		flex-flow: nowrap;
+	}
+	.newsletter-box {
+		width: 1%;
+		flex-direction: column;
+	}
+}
+@media (max-width: 575px) {
+	.nav-left {
+		width: 40%;
+		padding-left: 0;
+	}
+
+	.nav-right {
+		width: 60%;
+	}
+	.nav-right li {
+		margin: 18px 4px;
+		font-size: 20px;
+		margin: auto;
+	}
+	.heading-button{
+		width: 90%;
+	}
+}
+@media (max-width:520) 
+{
+	.heading-button{
+		margin: auto;
+		width: 100%;
+	}
+}
+
+@media (max-width:420) 
+{
+.contact-form {
+	width: 100%;
+}
+}
+@media (max-width: 425px) {
+	.nav-left {
+		width: 30%;
+		padding-left: 0;
+	}
+
+	.nav-right {
+		width: 70%;
+	}
+
+	.nav-right li {
+		font-size: 18px;
+	}
+
+	.logo {
+		height: 70px;
+		width: 70px;
+		margin-left: 0px;
+	}
+}
+@media (max-width: 395px){
+	.nav-right li {
+		margin: 18px 2px;
+		font-size: 16px;
+		margin: auto;
+	}
+	.heading-button{
+		width: 100%;
+	}
+	.heading h1{
+		font-size: 28px;
+		
+	}
+	.heading p{
+		font-size: 18px;
+		display: none;
+	}
+}
